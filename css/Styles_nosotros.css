@@ -1,0 +1,46 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+#cont-imagenes{
+    display: flex;
+    width: auto;
+    height: 10rem;
+    margin-top: 1rem;
+    border: 1px solid #000;
+}
+
+#cont-imagen img{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+nav{
+    display: flex;
+    height: 3rem;
+    width: 100%;
+    border: 1px solid #000;
+}
+
+#nav-option{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+footer{
+    display: flex;
+    height: 4rem;
+    width: 100%;
+    border: 1px solid #000;
+}
+
+#footer-option{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+}
