@@ -9,10 +9,10 @@ body{
     margin-top: 1rem;
     border: 1px solid #000;
 }
-.img-logo{
+#img-logo{
     display: flex;
-    width: 100%;
-    height: 100%;
+    width: auto;
+    height: 9rem;
     margin: auto;
 }
 
