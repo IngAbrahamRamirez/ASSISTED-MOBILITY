@@ -5,38 +5,24 @@ body{
 #cont-logo{
     display: flex;
     width: auto;
-    height: 10rem;
+    height: 13rem;
     margin-top: 1rem;
-    border: 1px solid #000;
+    border: 1px solid #ffffff;
 }
 #img-logo{
     display: flex;
     width: auto;
-    height: 9rem;
+    height: 13rem;
     margin: auto;
 }
-
-#cont-imagenes{
-    display: flex;
-    width: auto;
-    height: 30rem;
-    margin-top: 1rem;
-    border: 1px solid #000;
-}
-
-.cont-imagen{
-    display: flex;
-    width: 100%;
-    height: 100%;
-    margin-left: 50%;
-    transform: translateX(-50%);
-}
-
 nav{
     display: flex;
     height: 3rem;
-    width: 100%;
-    border: 1px solid #000;
+    width: 80%;
+    margin:auto;
+    font-family:'Open Sans', sans-serif;
+    font-size: 1.3125rem;
+    border: 1px solid #ffffff;
 }
 
 #nav-option{
@@ -44,18 +30,178 @@ nav{
     width: 100%;
     height: 100%;
     margin: auto;
+    background-color: white;
+}
+
+#nav-option ul{
+    list-style: none;
+    margin: auto;
+    padding: auto;
+}
+
+#nav-option ul li{
+    display: inline-block;
+}
+#nav-option ul li a{
+    color: #000;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+#nav-option ul li a:hover{
+    color: #87B1CB;
+}
+
+.Barra{
+    color: #87B1CB ;
+}
+
+.IS{
+    color: #87B1CB ;
+    font-size: 1rem;
+}
+
+#cont-imagenes{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: 35%;
+    align-items: center;
+}
+
+#Img1{
+    width: auto;
+    height: auto;
+    max-width: 65rem;
+    max-height: 65rem;
+}
+
+#cont-titulo2{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: auto;
+    font-family:Arial, Helvetica light, sans-serif;        
+    font-size: 2.2rem;
+    background-color: #87B1CB;
+    line-height: 3rem;
+    color: #000;
+    text-align:center;
+    font-weight: lighter;
+}
+
+#cont-titulo2 p{
+    width: 60%;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align:center;
+}
+
+
+#cont-titulo-texto h2{
+    width: 60%;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: lighter;
+}
+
+#cont-subtitulo h3{
+    width: 60%;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-size: 2rem;
+    font-weight:lighter;
+}
+
+#cont-texto p{
+    width: 60%;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:justify;
+    font-size: 1rem;
+    font-weight:lighter;
 }
 
 footer{
     display: flex;
-    height: 4rem;
+    height: auto;
+    width: 90%;
+    margin: auto;
+    border: 1px solid #4A4A4A;
+    background-color: #4A4A4A;
+    text-align: center;
+}
+footer h2{
+    display: block;
+    position: relative;
+    margin-bottom: 0%;
+    margin-top: 1rem;
     width: 100%;
-    border: 1px solid #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.3rem;
+    text-align: center;
+    font-weight: lighter;
+    color: white;
+    padding: auto;
+}
+
+footer button{
+    position: relative;
+    margin: auto;
+    margin-top: 0%;
+    margin-bottom: 1.2rem;
+    display: block;
+    width: auto;
+    color: white;
+    font-size: 1.5rem;
+    background-color: #006F83; 
+    padding: 1.3rem;
+    font-family: 'Open Sans', sans-serif;
+}
+footer a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 2rem;
+    font-stretch: condensed;
+    
 }
 
 #footer-option{
-    display: flex;
+    display: inline-block;
     height: 100%;
     width: 100%;
-    margin: auto;
+    padding: 3rem;
+}
+
+#Pie{
+    text-align: center;
+    display: flex;
+    height: 3rem;
+    width: 80%;
+    margin:auto;
+    font-family:'Open Sans', sans-serif;
+    font-size: 1.3125rem;
+    border: 1px solid #ffffff;
+}
+
+#Icono{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Img{
+    width: auto;
+    height: auto;
+    max-width: 2rem;
+    max-height: 2rem;
 }
