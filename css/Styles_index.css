@@ -15,6 +15,7 @@ body{
     height: 13rem;
     margin: auto;
 }
+
 nav{
     display: flex;
     height: 3rem;
@@ -34,13 +35,29 @@ nav{
 }
 
 #nav-option ul{
-    list-style: none;
-    margin: auto;
-    padding: auto;
+    list-style:none;
+    margin:auto;
+    padding:0;
 }
 
 #nav-option ul li{
-    display: inline-block;
+    position:relative;
+    float:left;
+    margin:0;
+    padding:0;
+}
+
+#nav-option ul a{
+    display:block;
+    color:#fff;
+    text-decoration:none;
+    font-weight:400;
+    font-size:1rem;
+    padding:10px;
+    font-family: Arial, sans-serif;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    transform: translateY(-0.3rem);
 }
 #nav-option ul li a{
     color: #000;
@@ -53,6 +70,29 @@ nav{
     color: #87B1CB;
 }
 
+#nav-option ul ul {
+    display:none;
+    position:absolute;
+    top:100%;
+    left:0;
+    background:rgb(255, 250, 250);
+    padding:0;
+}
+
+#nav-option ul ul li {
+    float:none;
+    width:150px
+}
+
+#nav-option ul ul a {
+    line-height:120%;
+    padding:10px 15px;
+}
+
+#nav-option ul li:hover > ul {
+    display: block;
+}
+
 .Barra{
     color: #87B1CB ;
 }
@@ -60,6 +100,7 @@ nav{
 .IS{
     color: #87B1CB ;
     font-size: 1rem;
+    transform: translateY(-0.8rem);
 }
 
 #Fondo1{
