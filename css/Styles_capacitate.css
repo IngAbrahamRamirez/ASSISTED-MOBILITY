@@ -24,6 +24,7 @@ nav{
     font-family:'Open Sans', sans-serif;
     font-size: 1.3125rem;
     border: 1px solid #ffffff;
+    z-index: 5;
 }
 
 #nav-option{
@@ -32,12 +33,14 @@ nav{
     height: 100%;
     margin: auto;
     background-color: white;
+    z-index: 5;
 }
 
 #nav-option ul{
     list-style:none;
     margin:auto;
     padding:0;
+    z-index: 5;
 }
 
 #nav-option ul li{
@@ -45,6 +48,7 @@ nav{
     float:left;
     margin:0;
     padding:0;
+    z-index: 5;
 }
 
 #nav-option ul a{
@@ -58,16 +62,19 @@ nav{
     text-transform:uppercase;
     letter-spacing:1px;
     transform: translateY(-0.3rem);
+    z-index: 5;
 }
 #nav-option ul li a{
     color: #000;
     display: block;
     padding: 10px;
     text-decoration: none;
+    z-index: 5;
 }
 
 #nav-option ul li a:hover{
     color: #87B1CB;
+    z-index: 5;
 }
 
 #nav-option ul ul {
@@ -77,20 +84,24 @@ nav{
     left:0;
     background:rgb(255, 250, 250);
     padding:0;
+    z-index: 5;
 }
 
 #nav-option ul ul li {
     float:none;
-    width:150px
+    width:150px;
+    z-index: 5;
 }
 
 #nav-option ul ul a {
     line-height:120%;
     padding:10px 15px;
+    z-index: 5;
 }
 
 #nav-option ul li:hover > ul {
     display: block;
+    z-index: 5;
 }
 
 .Barra{
@@ -101,6 +112,11 @@ nav{
     color: #87B1CB ;
     font-size: 1rem;
     transform: translateY(-0.8rem);
+}
+
+#Multicolor{
+    width: 100%;
+    background:radial-gradient(circle at 70%, hsl(300, 100%, 100%) 1%, #dbc4db,#588fb1);
 }
 
 #cont-imagenes{
@@ -124,10 +140,11 @@ nav{
 
 article{
     display: inline-block;
-    width: 100%;
-    height: 100%;
-    margin: auto;
+    margin-left: 10%;
+    width: 80%;
+    height: auto;
     background-color: white;
+    z-index: 1;
 }
 
 #cont-titulo-texto{
@@ -188,12 +205,13 @@ article{
 
 .cont-imagenes-capacitate{
     display: inline-block;
-    width: 70%;
+    width: 90%;
     height: auto;
-    margin: 1rem auto;
-    background-color: white;
-    margin-left: 50%;
-    transform: translateX(-50%);
+    margin: 9%;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: none;
+    
 }
 
 .video-capacitate{
@@ -201,7 +219,7 @@ article{
     width: 30%;
     height: 40rem;
     margin: 1rem auto;
-    background-color: white;
+    background-color: none;
 }
 
 #footer-option{
@@ -215,11 +233,12 @@ article{
     text-align: center;
     display: flex;
     height: 3rem;
-    width: 80%;
+    width: 90%;
     margin:auto;
     font-family:'Open Sans', sans-serif;
     font-size: 1.3125rem;
-    border: 1px solid #ffffff;
+    border: 0px;
+    
 }
 
 #Icono{
@@ -234,4 +253,25 @@ article{
     height: auto;
     max-width: 2rem;
     max-height: 2rem;
+}
+#Img1{
+    width: auto;
+    height: auto;
+    max-width: 22rem;
+    max-height: 22rem;
+}
+
+.Img-cap1{
+    margin-bottom: 19rem;
+    margin-left:auto;
+    background-color: none;
+    margin-top: 0;
+}
+
+.Img-cap2{
+    margin: 4rem auto;
+    margin-bottom: 1rem;
+    margin-left: -8rem;
+    background-color: none;
+    z-index: 1;
 }

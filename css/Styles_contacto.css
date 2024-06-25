@@ -24,6 +24,7 @@ nav{
     font-family:'Open Sans', sans-serif;
     font-size: 1.3125rem;
     border: 1px solid #ffffff;
+    z-index: 5;
 }
 
 #nav-option{
@@ -32,12 +33,14 @@ nav{
     height: 100%;
     margin: auto;
     background-color: white;
+    z-index: 5;
 }
 
 #nav-option ul{
     list-style:none;
     margin:auto;
     padding:0;
+    z-index: 5;
 }
 
 #nav-option ul li{
@@ -45,6 +48,7 @@ nav{
     float:left;
     margin:0;
     padding:0;
+    z-index: 5;
 }
 
 #nav-option ul a{
@@ -58,16 +62,19 @@ nav{
     text-transform:uppercase;
     letter-spacing:1px;
     transform: translateY(-0.3rem);
+    z-index: 5;
 }
 #nav-option ul li a{
     color: #000;
     display: block;
     padding: 10px;
     text-decoration: none;
+    z-index: 5;
 }
 
 #nav-option ul li a:hover{
     color: #87B1CB;
+    z-index: 5;
 }
 
 #nav-option ul ul {
@@ -77,22 +84,25 @@ nav{
     left:0;
     background:rgb(255, 250, 250);
     padding:0;
+    z-index: 5;
 }
 
 #nav-option ul ul li {
     float:none;
-    width:150px
+    width:150px;
+    z-index: 5;
 }
 
 #nav-option ul ul a {
     line-height:120%;
     padding:10px 15px;
+    z-index: 5;
 }
 
 #nav-option ul li:hover > ul {
     display: block;
+    z-index: 5;
 }
-
 .Barra{
     color: #87B1CB ;
 }
@@ -124,10 +134,11 @@ nav{
 }
 
 #cont-banner-wp-texto p{
-    width: 80%;
+    width: 60%;
     margin: auto;
     margin-top: 2rem;
     text-align: justify;
+    font-weight: lighter;
 }
 
 #cont-banner-wp-btn{
@@ -140,14 +151,14 @@ nav{
 
 #cont-banner-wp-btn button{
     display: inline-block;
-    width: 30%;
+    width: 25%;
     height: 3rem;
     background-color: #ffffff;
-    color: #000000;
+    color: #4a4a4a;
     border: 2px solid #4e9ac9;
     border-radius: 2rem;
     font-family: 'Open Sans', sans-serif;
-    font-size: 1.3125rem;
+    font-size: 1.5rem;
     font-weight: lighter;
 }
 
@@ -190,10 +201,10 @@ nav{
 
 #cont-publica-btn button{
     display: inline-block;
-    width: 30%;
+    width: 25%;
     height: 3rem;
     background-color: #ffffff;
-    color: #000000;
+    color: #4a4a4a;
     border: 2px solid #4e9ac9;
     border-radius: 2rem;
     font-family: 'Open Sans', sans-serif;
@@ -203,7 +214,8 @@ nav{
 
 #cont-publica-texto{
     width: 80%;
-    font-size: 2.5rem;
+    font-size: 2rem;
+    font-weight: bold;
     padding: 0.3rem;
     padding-left: 3rem;
     padding-right: 3rem;
@@ -211,7 +223,20 @@ nav{
     background-color: #3f3f3f;
     margin-left: 50%;
     transform: translateX(-50%);
+}
 
+#cont-video{
+width: 80%;
+margin: auto;
+margin-top: 2rem;
+}
+
+.video-contacto{
+    display: inline-block;
+    width: 80%;
+    height: auto;
+    margin: auto;
+    background-color: white;
 }
 
 
@@ -252,7 +277,7 @@ nav{
     text-align: center;
     display: flex;
     height: 3rem;
-    width: 80%;
+    width: 90%;
     margin:auto;
     font-family:'Open Sans', sans-serif;
     font-size: 1.3125rem;
